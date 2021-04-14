@@ -1,0 +1,31 @@
+div#game {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: seagreen;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 95px;
+    height: 95px;
+    border: 2px solid white;
+    margin: 0px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #ffeb3b;
+    box-sizing: border-box;
+	cursor: pointer;
+}
+
+.res {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
